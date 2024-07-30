@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Friends</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- Font Awesome liberary -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/all.min.css">
+    <!-- Framework css file -->
+    <link rel='stylesheet' type='text/css' media='screen' href='../CSS/framework.css'>
+    <!-- Main template CSS file -->
+    <link rel='stylesheet' type='text/css' media='screen' href='../CSS/main.css'>
+    <!-- Render all elements normally -->
+    <link rel='stylesheet' type='text/css' media='screen' href='../CSS/normalize.css'>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:ital,wght@0,100;0,900;1,900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page d-flex">
+        <div class="sidebar p-20 bg-white p-relative">
+            <h3 class="mt-0 p-relative txt-c">Eren</h3>
+            <ul>
+                <li>
+                    <a href="../index.html" class="d-flex align-c fs-14 c-black rad-6 p-10">
+                        <i class="fa-solid fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../HTML/settings.html" class="d-flex align-c fs-14 c-black rad-6 p-10">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="profile.html" class="d-flex align-c fs-14 c-black rad-6 p-10">
+                        <i class="fa-solid fa-address-card fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="projects.html" class="d-flex align-c fs-14 c-black rad-6 p-10">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="courses.html" class="d-flex align-c fs-14 c-black rad-6 p-10">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="friends.html" class="active d-flex align-c fs-14 c-black rad-6 p-10">
+                        <i class="fa-solid fa-user-group fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="files.html" class="d-flex align-c fs-14 c-black rad-6 p-10">
+                        <i class="fa-solid fa-file files fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="plans.html" class="d-flex align-c fs-14 c-black rad-6 p-10">
+                        <i class="fa-solid fa-square-poll-vertical fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content w-full of-hidden">
+            <!-- Start head -->
+            <div class="head bg-white p-15 between-flex">
+                <div class="search p-relative">
+                    <input type="search" placeholder="Type A Keyword">
+                </div>
+                <div class="icons d-flex align-c">
+                    <span class="notification p-relative">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </span>
+                    <img src="../Images/avatar.png" alt="">
+                </div>
+            </div>
+            <!-- End head -->
+            <h1 class="p-relative">Friends</h1>
+            <div class="friends-page d-grid m-20 gap-20">
+                <div class="friend bg-white rad-6 p-20 p-relative">
+                    <div class="contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="txt-c">
+                        <img class="rad-half mt-10 mb-10 w-100 h-100" src="../Images/friend-01.jpg">
+                        <h4 class="m-0">Levi Ackerman</h4>
+                        <p class="c-grey fs-13 mt-5 mb-5">Android Developer</p>
+                    </div>
+                    <div class="icons fs-14 p-relative">
+                        <div class="mb-10">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span>99 Friends</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-solid fa-code fa-fw"></i>
+                            <span>23 projects</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span>40 Articles</span>
+                        </div>
+                        <span class="vip fw-bold c-orange">VIP</span>
+                    </div>
+                    <div class="info between-flex fs-13">
+                        <span class="c-grey">Joined 3 / 3 / 2023</span>
+                        <div>
+                            <a href="../HTML/profile.html" class="bg-blue c-white btn-shape">Profile</a>
+                            <a href="#" class="bg-red c-white btn-shape">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="friend bg-white rad-6 p-20 p-relative">
+                    <div class="contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="txt-c">
+                        <img class="rad-half mt-10 mb-10 w-100 h-100" src="../Images/friend-02.jpg">
+                        <h4 class="m-0">Eren Yeager</h4>
+                        <p class="c-grey fs-13 mt-5 mb-5">Front End Web Developer</p>
+                    </div>
+                    <div class="icons fs-14 p-relative">
+                        <div class="mb-10">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span>58 Friends</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-solid fa-code fa-fw"></i>
+                            <span>18 projects</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span>35 Articles</span>
+                        </div>
+                        <span class="vip fw-bold c-orange">VIP</span>
+                    </div>
+                    <div class="info between-flex fs-13">
+                        <span class="c-grey">Joined 19 / 3 / 2023</span>
+                        <div>
+                            <a href="../HTML/profile.html" class="bg-blue c-white btn-shape">Profile</a>
+                            <a href="#" class="bg-red c-white btn-shape">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="friend bg-white rad-6 p-20 p-relative">
+                    <div class="contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="txt-c">
+                        <img class="rad-half mt-10 mb-10 w-100 h-100" src="../Images/friend-03.jpg">
+                        <h4 class="m-0">Erwin Smith</h4>
+                        <p class="c-grey fs-13 mt-5 mb-5">Full Stack Web Developer</p>
+                    </div>
+                    <div class="icons fs-14 p-relative">
+                        <div class="mb-10">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span>103 Friends</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-solid fa-code fa-fw"></i>
+                            <span>28 projects</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span>45 Articles</span>
+                        </div>
+                        <span class="vip fw-bold c-orange">VIP</span>
+                    </div>
+                    <div class="info between-flex fs-13">
+                        <span class="c-grey">Joined 5 / 4 / 2023</span>
+                        <div>
+                            <a href="../HTML/profile.html" class="bg-blue c-white btn-shape">Profile</a>
+                            <a href="#" class="bg-red c-white btn-shape">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="friend bg-white rad-6 p-20 p-relative">
+                    <div class="contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="txt-c">
+                        <img class="rad-half mt-10 mb-10 w-100 h-100" src="../Images/friend-04.jpg">
+                        <h4 class="m-0">Armin Arlert</h4>
+                        <p class="c-grey fs-13 mt-5 mb-5">UI & UX Designer</p>
+                    </div>
+                    <div class="icons fs-14 p-relative">
+                        <div class="mb-10">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span>80 Friends</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-solid fa-code fa-fw"></i>
+                            <span>20 projects</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span>38 Articles</span>
+                        </div>
+                    </div>
+                    <div class="info between-flex fs-13">
+                        <span class="c-grey">Joined 17 / 4 / 2023</span>
+                        <div>
+                            <a href="../HTML/profile.html" class="bg-blue c-white btn-shape">Profile</a>
+                            <a href="#" class="bg-red c-white btn-shape">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="friend bg-white rad-6 p-20 p-relative">
+                    <div class="contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="txt-c">
+                        <img class="rad-half mt-10 mb-10 w-100 h-100" src="../Images/friend-05.jpg">
+                        <h4 class="m-0">Jean Kirtein</h4>
+                        <p class="c-grey fs-13 mt-5 mb-5">Front End Web Developer</p>
+                    </div>
+                    <div class="icons fs-14 p-relative">
+                        <div class="mb-10">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span>100 Friends</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-solid fa-code fa-fw"></i>
+                            <span>25 projects</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span>42 Articles</span>
+                        </div>
+                    </div>
+                    <div class="info between-flex fs-13">
+                        <span class="c-grey">Joined 23 / 4 / 2023</span>
+                        <div>
+                            <a href="../HTML/profile.html" class="bg-blue c-white btn-shape">Profile</a>
+                            <a href="#" class="bg-red c-white btn-shape">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="friend bg-white rad-6 p-20 p-relative">
+                    <div class="contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="txt-c">
+                        <img class="rad-half mt-10 mb-10 w-100 h-100" src="../Images/friend-01.jpg">
+                        <h4 class="m-0">Reiner Braun</h4>
+                        <p class="c-grey fs-13 mt-5 mb-5">IOS Developer</p>
+                    </div>
+                    <div class="icons fs-14 p-relative">
+                        <div class="mb-10">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span>77 Friends</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-solid fa-code fa-fw"></i>
+                            <span>23 projects</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span>33 Articles</span>
+                        </div>
+                    </div>
+                    <div class="info between-flex fs-13">
+                        <span class="c-grey">Joined 1 / 5 / 2023</span>
+                        <div>
+                            <a href="../HTML/profile.html" class="bg-blue c-white btn-shape">Profile</a>
+                            <a href="#" class="bg-red c-white btn-shape">Remove</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
